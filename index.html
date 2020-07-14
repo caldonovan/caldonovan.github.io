@@ -1,66 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- TODO: Clean up un-necessary imports -->
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- TODO: Clean up un-necessary imports -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/custom.css" />
+    <link rel="stylesheet" href="/css/bootstrap-social.css">
 
+    <script src="https://kit.fontawesome.com/15807b4aed.js" crossorigin="anonymous"></script>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
 
-  <title>Cal Donovan</title>
-</head>
-<body>
-  <!--
-  <nav class="navbar navbar-expand-lg navbar-light nav-transparent justify-content-between">
-    <a class="navbar-brand" href="#"><b><span>$Cal.'Donovan'</span></b></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="#"><span>Projects</span></a>
-        </li>
-        <li class="nav-item mx-2 active">
-          <a class="nav-link" href="#"><span>About</span> <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="#"><span>Contact</span></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <title>Cal Donovan</title>
+  </head>
+  <body class="bg-transparent fade-in">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-transparent">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white" href="https://github.com/caldonovan"><span>Projects</span></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white" href="https://github.com/caldonovan"><span>About</span></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-white" href="https://github.com/caldonovan"><span>Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <header>
-
-  </header>-->
-
-  <main id="bs-override">
-    <div class="mt-5 container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="text-center">
-            <h1>🚧 Work in Progress 🚧</h1>
+        <!-- Modal -->
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contact-modal-label">Contact</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
     </div>
-  </main>
-  
-</body>
+
+    <header id="site-header">
+      <div class="container h-100">
+        <div class="row h-100 text-white">
+          <div id="masthead" class="col-md-12 my-auto text-center">
+            <!-- What a mess! -->
+            <h1><code class="text-danger">$callum</code> .<code class="text-success">'donovan';</code></h1>
+            <p class="mb-5">Full-stack Developer; Laravel Enthusiast</p>
+            <a class="btn btn-social-icon btn-github mx-1" href="https://github.com/caldonovan">
+              <span class="fab fa-github"></span>
+            </a>
+            <a class="btn btn-social-icon btn-github mx-1" href="https://www.linkedin.com/in/callum-donovan-334444122/">
+              <span class="fab fa-linkedin-in"></span>
+            </a>
+            <a class="btn btn-social-icon btn-github mx-1" href="mailto:caldonovan@outlook.com">
+              <span class="fas fa-envelope"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--
+    <main class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-header text-center text-uppercase py-3">
+                <h1>My Work</h1>
+              </div>
+              <div class="card-body">
+                <div class="container">
+                  <div class="row my-2">
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4>Project</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4>Project</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row my-2">
+                    <div class="col">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4>Project</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>-->
+  </body>
 </html>
